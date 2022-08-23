@@ -1,9 +1,18 @@
-Need to create one database named as "short_links"
+Clone to local system
 
-Need to run 'php artisan migrate' 
+1) run composer install 
 
-then please run 'php artisan serve'  
+2) copy .env in to the root (.env file sending through email)
 
+3) Need to create one database named as "short_links"
 
-Then we will get output in "http://localhost:8000/generate-link"
+4) Need to run 'php artisan migrate' 
+
+5) please run 'php artisan serve'  
+
+Then we will get output in 
+
+http://localhost:8000/generate-link
+or 
+http://127.0.0.1:8000/generate-link
 
